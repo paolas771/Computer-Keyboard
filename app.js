@@ -276,6 +276,9 @@ var code;
 var index;
 var newKey;
 jiggle();
+
+// https://www.techiedelight.com/detect-enter-key-press-javascript/
+// to check if a key was pressed
 document.addEventListener("keyup", event => {
     if(newKey.innerHTML == "SHIFT"){
         if(event.location == 1){
@@ -301,15 +304,8 @@ function jiggle() {
             code = keyCodeList[i].kCode;
             index = keyCodeList[i].classNum;
             
-            // https://www.techiedelight.com/detect-enter-key-press-javascript/
-            // to check if a key was pressed
-            /*document.addEventListener("keyup", event => {
-                if (event.keyCode === code) {
-                    document.getElementsByClassName("key")[index].classList.remove("jiggle");
-                    jiggle();
-                }
-
-            });*/
+            
+            
         }
     }
 }
