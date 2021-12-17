@@ -14,8 +14,8 @@ Day 4 of Advent of JavaScript by Amy Dutton
 
 ### Links
 
-- Solution URL: (https://paolas771.github.io/Computer-Keyboard/)
-- Live Site URL: ()
+- Solution URL: (https://github.com/paolas771/Computer-Keyboard)
+- Live Site URL: (https://paolas771.github.io/Computer-Keyboard/)
 
 ## My Process
 I created an array of objects with all key elements and made a for loop to iterate through it to see which letter is moving.
